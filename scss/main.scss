@@ -81,3 +81,84 @@ html {
     background: none;
     font-weight: 700;
 }
+
+/* MAIN PAGE */
+
+#stronaglowna {
+    height: 100vh;
+    padding-top: 100px;
+    background-color: gray;
+    // background-image: url();
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    .header {
+        margin-top: 250px;
+        border: 5px solid #ffbe00;
+        h1 {
+            color: white;
+            padding: 100px 50px;
+            font-weight: 700;
+        }
+    }
+}
+
+@media(min-width: 767px) {
+    #stronaglowna {
+        background: none;
+        padding: 0;
+    }
+
+    .carousel,
+    .item,
+    .active {
+        height: 100%;
+    }
+
+    .carousel {
+        li {
+            background-color: #ffbe00;
+            border: #ffbe00;
+        }
+    }
+
+    .item {
+        &:first-child {
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(2) {
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        &:last-child {
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .item {
+        position: relative;
+        .carousel-caption {
+            position: absolute;
+            top: 400px;
+            .animated {
+                animation: fadeIn 4s ease-out;
+            }
+        }
+    }
+
+    @-webkit-keyframes fadeIn {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+    }
+}
