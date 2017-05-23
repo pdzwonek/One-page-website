@@ -157,6 +157,8 @@ html {
     }
     img {
         width: 100%;
+        height: 280px;
+        background: #696868;
     }
 }
 
@@ -171,6 +173,7 @@ html {
     }
 }
 
+
 .section-paragraph {
     line-height: 20px;
     font-family: 'Libre Baskerville', serif;
@@ -181,6 +184,33 @@ html {
 .title-paragraph {
     line-height: 30px;
     padding-bottom: 20px;
+}
+
+/* FEATURED WORK */
+
+#realizacje {
+    background-color: #212121;
+    h3 {
+        color: #fff;
+    }
+    .section-paragraph {
+        color: #f7f7f7;
+    }
+}
+
+.container-fluid {
+    .row {
+        .col-md-2 {
+            padding: 0;
+        }
+        .col-sm-4 {
+            padding: 0;
+        }
+    }
+}
+
+.projects {
+    padding-top: 100px;
 }
 
 @media(min-width: 767px) {
