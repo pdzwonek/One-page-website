@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
-    <!-- Navigation section -->
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="100">
 
+    <!-- NAVIGATION SECTION -->
     <nav class="navbar navbar-default navbar-fixed-top">
 
         <div class="container-fluid bg">
@@ -30,7 +30,7 @@
 
         <div class="container">
 
-            <div class="navbar-header">
+            <div class="navbar-header page-scroll">
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -47,29 +47,29 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#stronaglowna">STRONA GŁÓWNA</a>
+                        <a class="page-scroll" href="#stronaglowna">STRONA GŁÓWNA</a>
                     </li>
                     <li>
-                        <a href="#onas">O NAS</a>
+                        <a class="page-scroll" href="#onas">O NAS</a>
                     </li>
                     <li>
-                        <a href="#oferta">OFERTA</a>
+                        <a class="page-scroll" href="#oferta">OFERTA</a>
                     </li>
                     <li>
-                        <a href="#realizacje">REALIZACJE</a>
+                        <a class="page-scroll" href="#realizacje">REALIZACJE</a>
                     </li>
                     <li>
-                        <a href="#certyfikaty">CERTYFIKATY</a>
+                        <a class="page-scroll" href="#certyfikaty">CERTYFIKATY</a>
                     </li>
                     <li>
-                        <a href="#kontakt">KONTAKT</a>
+                        <a class="page-scroll" href="#kontakt">KONTAKT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Page Content -->
+    <!-- PAGE CONTENT -->
 
     <!-- Main Page for small devices -->
     <div id="stronaglowna" class="container-fluid">
@@ -81,6 +81,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Slider for large devices-->
         <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
             <!-- Indicators -->
@@ -124,7 +125,8 @@
             </a>
         </div>
     </div>
-    <!-- About us section -->
+
+    <!-- ABOUT US SECTION -->
     <div id="onas" class="container">
         <div class="row">
             <div class="col-md-6 about">
@@ -142,6 +144,8 @@
             </div>
         </div>
     </div>
+
+    <!-- SERVICES SECTION -->
     <div id="oferta" class="container-fluid">
         <div class="container">
             <div class="row">
@@ -180,6 +184,8 @@
             </div>
         </div>
     </div>
+
+    <!-- PROJECT SECTION -->
     <div id="realizacje" class="container-fluid projects">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center section-title">
@@ -211,8 +217,75 @@
         </div>
     </div>
 
+    <!-- CONTACT SECTION -->
+    <div id="kontakt" class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-12">
+                <form name="sent-message" id="contact-form">
+                    <div class="form-group">
+                        <label>Imię:</label>
+                        <input type="text" class="form-control" id="name" />
+                    </div>
+                    <div class="form-group">
+                        <label>Nazwisko:</label>
+                        <input type="text" class="form-control" id="surname" />
+                    </div>
+                    <div class="form-group">
+                        <label>Telefon:</label>
+                        <input type="tel" class="form-control" id="telephone" />
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail:</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label>Wiadomość:</label>
+                        <textarea class="form-control" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Wyślij</button>
+                </form>
+            </div>
+            <div class="col-md-4 col-xs-12 section-title">
+                <h3><span class="form-title">KONTAKT</span></h3>
+                <div class="section-paragraph">
+                    <h5 class="">Firma DZWON Krzysztof Dzwonek</h5>
+                    <h5 class="">ul. Jędrzejowska 14</h5>
+                    <h5 class="">55-100 Trzebnica</h5>
+                </div>
+                <div class="section-paragraph">
+                    <h5 class=""><span class="glyphicon glyphicon-home"></span>
+                        Siedziba:
+                    </h5>
+                    <h5 class="">ul. Henryka Brodatego 23a</h5>
+                    <h5 class="">55-100 Trzebnica</h5>
+                </div>
+                <div class="section-paragraph">
+                    <h5 class="">
+                        <span class="glyphicon glyphicon-earphone"></span>
+                        601 746 425
+                    </h5>
+                    <h5 class="">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        dachy-dzwonek@trzebnica.pl
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer id="footer" class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="footer text-center">
+                Copyright &copy; 2017. Created by pdzwonek
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 </body>
 </html>

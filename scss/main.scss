@@ -213,6 +213,45 @@ html {
     padding-top: 100px;
 }
 
+/* CONTACT */
+
+#kontakt {
+    padding: 100px 15px;
+    #contact-form {
+        padding: 0 20px;
+    }
+    .section-title {
+        padding-top: 50px;
+    }
+    .form-title {
+        margin-top: 20px;
+        color: #ffbe00;
+        border-bottom: 2px solid #ffbe00;
+        margin-left: 15px;
+    }
+}
+
+button {
+    background-color: #ffbe00;
+    color: #fff;
+}
+
+/* FOOTER */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#footer {
+    background-color: #292929;
+    .container {
+        .footer {
+            margin: 15px 0;
+            color: #424242;
+        }
+    }
+}
+
 @media(min-width: 767px) {
     #stronaglowna {
         background: none;
