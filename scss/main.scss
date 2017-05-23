@@ -130,6 +130,59 @@ html {
     }
 }
 
+.photo {
+    background-color: #757575;
+    height: 400px;
+}
+
+/* OUR SERVICES */
+
+#oferta {
+    padding: 100px 15px;
+    background: #f7f7f7;
+}
+
+.glyphicon-triangle-bottom {
+    font-size: 24px;
+}
+
+.thumbnail {
+    border: none;
+    padding: 0;
+    .subtitle {
+        color: #292929;
+        font-size: 20px;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.section-title {
+    h3 {
+        color: #292929;
+        font-weight: 600;
+        margin-top: 0;
+        padding-bottom: 20px;
+        line-height: 35px;
+        letter-spacing: 2px;
+    }
+}
+
+.section-paragraph {
+    line-height: 20px;
+    font-family: 'Libre Baskerville', serif;
+    color: #757575;
+    padding: 20px 20px;
+}
+
+.title-paragraph {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
 @media(min-width: 767px) {
     #stronaglowna {
         background: none;
