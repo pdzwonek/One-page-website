@@ -102,6 +102,34 @@ html {
     }
 }
 
+/* ABOUT US */
+
+#onas {
+    padding: 100px 15px;
+    background-color: #fff;
+}
+
+.about {
+    padding: 0 30px;
+    h3 {
+        color: #292929;
+        font-weight: 600;
+        padding-bottom: 20px;
+        line-height: 35px;
+        letter-spacing: 2px;
+        position: relative;
+    }
+    p {
+        line-height: 30px;
+        font-family: 'Libre Baskerville', serif;
+        color: #757575;
+    }
+    span {
+        color: #ffbe00;
+        border-bottom: 2px solid #ffbe00;
+    }
+}
+
 @media(min-width: 767px) {
     #stronaglowna {
         background: none;
