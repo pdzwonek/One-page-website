@@ -236,6 +236,23 @@ button {
     color: #fff;
 }
 
+/* GOOGLE MAP */
+
+#map {
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    #gmap_canvas {
+        height: 500px;
+        width: 100%;
+        img {
+            max-width: none!important;
+            background: none!important;
+        }
+    }
+}
+
 /* FOOTER */
 
 .navbar {
