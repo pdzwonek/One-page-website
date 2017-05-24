@@ -85,7 +85,7 @@ html {
 /* MAIN PAGE */
 
 #stronaglowna {
-    height: 100vh;
+    height: 100%;
     padding-top: 100px;
     background-color: gray;
     // background-image: url();
@@ -269,6 +269,8 @@ button {
     }
 }
 
+/* MEDIA QUERIES */
+
 @media(min-width: 767px) {
     #stronaglowna {
         background: none;
@@ -327,5 +329,41 @@ button {
     @-webkit-keyframes fadeIn {
         0%   { opacity: 0; }
         100% { opacity: 1; }
+    }
+
+    .navbar {
+        padding: 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        .collapse {
+            .navbar-right {
+                font-size: 14px;
+                padding-top: 12px;
+                a {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 992px) {
+    #stronaglowna {
+        height: 100%;
+    }
+    #kontakt {
+        .section-title {
+            padding-top: 0;
+        }
+        .section-paragraph {
+            padding: 20px;
+        }
     }
 }
