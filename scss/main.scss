@@ -88,9 +88,10 @@ html {
     height: 100%;
     padding-top: 100px;
     background-color: gray;
-    // background-image: url();
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    background-image: url(../images/AdobeStock1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     .header {
         margin-top: 250px;
         border: 5px solid #ffbe00;
@@ -292,19 +293,19 @@ button {
 
     .item {
         &:first-child {
-            background-image: url();
+            background-image: url(../images/AdobeStock1.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
         &:nth-child(2) {
-            background-image: url();
+            background-image: url(../images/AdobeStock2.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
         &:last-child {
-            background-image: url();
+            background-image: url(../images/AdobeStock3.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
