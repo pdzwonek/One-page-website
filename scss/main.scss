@@ -93,11 +93,13 @@ html {
     background-size: cover;
     background-position: center;
     .header {
-        margin-top: 250px;
-        border: 5px solid #ffbe00;
+        margin-top: 50%;
+        border-top: 5px solid #ffbe00;
+        border-bottom: 5px solid #ffbe00;
         h1 {
+            font-size: 5vw;
             color: white;
-            padding: 100px 50px;
+            padding: 50px 0;
             font-weight: 700;
         }
     }
@@ -144,33 +146,24 @@ html {
 
 .icon-panel{
     margin-top: 50px;
-    .row {
-        .icon-box {
-            width: 100%;
-            height: 100px;
-            background-color: #ffbe00;
-            h4 {
-                display: inline-block;
-                padding-top: 30px;
-            }
-            .text-right {
-                float: right;
-                .icons {
-                    display: inline-block;
-                    margin-left: 30px;
-                    font-size: 18px;
-                    padding-top: 35px;
-                    img {
-                        width: 30px;
-                        height: 30px;
-                        margin: 0;
-                    }
-                }
-            }
+    background-color: #ffbe00;
+    .about {
+        padding: 0;
+    }
+}
 
+.all-icons {
+    text-align: center;
+    .icon {
+        display: inline-block;
+        font-size: 3vw;
+        padding: 30px 2px;
+        img {
+            width: 20px;
+            height: 20px;
+            margin: 0;
         }
     }
-
 }
 
 
@@ -201,7 +194,6 @@ html {
     }
     img {
         width: 100%;
-        height: 280px;
         background: #696868;
     }
 }
@@ -398,9 +390,30 @@ button {
         position: relative;
         .carousel-caption {
             position: absolute;
-            top: 400px;
+            top: 250px;
             .animated {
                 animation: fadeIn 4s ease-out;
+                text-align: left;
+            }
+            h1 {
+                border-top: 5px solid #ffbe00;
+                border-bottom: 5px solid #ffbe00;
+                font-size: 5vw;
+                color: white;
+                padding: 50px 0;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1.5vw;
+                padding-top: 20px;
+            }
+            button {
+                padding: 10px 30px;
+                margin-top: 20px;
+                border-radius: 2px;
+                background-color: #ffbe00;
+                border: #ffbe00;
+                float: left;
             }
         }
     }
@@ -430,9 +443,12 @@ button {
             }
         }
     }
-    #onas {
-        .icons {
-            margin-left: 70px;
+    .all-icons {
+        .icon {
+            img {
+                width: 30px;
+                height: 30px;
+            }
         }
     }
 }
@@ -441,6 +457,35 @@ button {
     #stronaglowna {
         height: 100%;
     }
+    .about {
+        padding: 0px;
+        .img-responsive {
+            padding-left: 40px;
+        }
+    }
+    .icon-box{
+        h4 {
+            display: inline-block;
+            padding: 35px 0 35px 0;
+            border: none;
+        }
+        .all-icons {
+            float: right;
+            text-align: right;
+            .icon {
+                display: inline-block;
+                font-size: 18px;
+                padding-left: 20px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+
     #kontakt {
         .section-title {
             padding-top: 0;
